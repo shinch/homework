@@ -1,0 +1,15 @@
+INSERT INTO keyword (keyword, cnt) VALUES ('one', 1);
+INSERT INTO keyword (keyword, cnt) VALUES ('two', 2);
+INSERT INTO keyword (keyword, cnt) VALUES ('three', 3);
+INSERT INTO keyword (keyword, cnt) VALUES ('four', 4);
+INSERT INTO keyword (keyword, cnt) VALUES ('five', 5);
+INSERT INTO keyword (keyword, cnt) VALUES ('six', 6);
+INSERT INTO keyword (keyword, cnt) VALUES ('seven', 7);
+INSERT INTO keyword (keyword, cnt) VALUES ('eight', 8);
+INSERT INTO keyword (keyword, cnt) VALUES ('nine', 9);
+INSERT INTO keyword (keyword, cnt) VALUES ('ten', 10);
+INSERT INTO keyword (keyword, cnt) VALUES ('eleven', 11);
+INSERT INTO keyword (keyword, cnt) VALUES ('twelve', 12);
+INSERT INTO keyword (keyword, cnt) VALUES ('thirteen', 13);
+INSERT INTO keyword (keyword, cnt) VALUES ('fourteen', 14);
+INSERT INTO keyword (keyword, cnt) VALUES ('fifteen', 15);

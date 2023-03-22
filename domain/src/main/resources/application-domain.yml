@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      auto-commit: false
+      connection-test-query: SELECT 1
+      idle-timeout: 59000
+      max-lifetime: 60000
+      maximum-pool-size: 5
+      minimum-idle: 3
+      pool-name: coupon-db-pool
+    url: jdbc:h2:mem:search-blog
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+      properties:
+        format_sql: true
+        show_sql: true
+    generate-ddl: false
+    show-sql: true
+    database: h2
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath*:database/schema.sql
+      data-locations: classpath*:database/data.sql
+api:
+  kakao:
+    host: dapi.kakao.com
+    api-key: b905c3938904dd33b8cde6756a967a16
+  naver:
+    host: openapi.naver.com
+    client-id: 2UcJH3zYVEVcyXo3GqnW
+    client-secret: sPTmYduh0f

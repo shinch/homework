@@ -1,0 +1,39 @@
+[versions]
+springBoot = "3.0.4"
+springDoc = "2.0.4"
+dependency-management = "1.0.11.RELEASE"
+mapstruct = "1.5.3.Final"
+spock = "2.1-groovy-3.0"
+jakarta = "3.0.1"
+hibernate-types = "2.20.0"
+lombok = "1.18.26"
+lombok-plugin = "8.0.0-rc2"
+h2 = "2.1.214"
+
+[libraries]
+spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "springBoot" }
+spring-boot-starter-jpa = { module = "org.springframework.boot:spring-boot-starter-data-jpa", version.ref = "springBoot" }
+spring-boot-starter-validation = { module = "org.springframework.boot:spring-boot-starter-validation", version.ref = "springBoot" }
+spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "springBoot" }
+springdoc-openapi-webmvc = { module = "org.springdoc:springdoc-openapi-starter-webmvc-ui", version.ref = "springDoc" }
+mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "mapstruct" }
+mapstruct-processor = { module = "org.mapstruct:mapstruct-processor", version.ref = "mapstruct" }
+spock-core = { module = "org.spockframework:spock-core", version.ref = "spock" }
+spock-spring = { module = "org.spockframework:spock-spring", version.ref = "spock" }
+jakarta-validation = { module = "jakarta.validation:jakarta.validation-api", version.ref = "jakarta" }
+hibernate-types = {module = "com.vladmihalcea:hibernate-types-60", version.ref = "hibernate-types"}
+h2 = { module = "com.h2database:h2", version.ref = "h2" }
+
+[bundles]
+springdoc = ["springdoc-openapi-webmvc"]
+springboot = ["spring-boot-starter-web", "spring-boot-starter-validation"]
+database = ["spring-boot-starter-jpa", "h2", "hibernate-types"]
+spock = ["spock-core", "spock-spring"]
+util = ["jakarta-validation"]
+
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
+dependency-management = { id = "io.spring.dependency-management", version.ref = "dependency-management" }
+lombok = { id = "io.freefair.lombok", version.ref = "lombok-plugin"}
+mapstruct = { id = "org.mapstruct.mapstruct-processor", version.ref = "mapstruct"}
