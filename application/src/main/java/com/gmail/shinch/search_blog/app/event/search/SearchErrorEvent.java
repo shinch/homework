@@ -1,6 +1,5 @@
 package com.gmail.shinch.search_blog.app.event.search;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,6 @@
 package com.gmail.shinch.search_blog.app.controller.blog;
 
 import com.gmail.shinch.search_blog.app.event.search.SearchEngine;
-import com.gmail.shinch.search_blog.app.exception.BadRequestException;
 import com.gmail.shinch.search_blog.app.exception.NoContentException;
 import com.gmail.shinch.search_blog.domain.blog.service.OrderType;
 import com.gmail.shinch.search_blog.domain.blog.service.SearchBlogResultDto;

@@ -1,6 +1,5 @@
 package com.gmail.shinch.search_blog.domain.keyword.repository;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

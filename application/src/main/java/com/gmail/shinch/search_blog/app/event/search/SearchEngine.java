@@ -9,4 +9,4 @@ public enum SearchEngine {
         public static final String NAVER = "NAVER";
     }
 
-    }
+}

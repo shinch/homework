@@ -24,4 +24,10 @@
 
 ### 참고화일
   * 실행 jar
-    * 
+    * download : https://github.com/shinch/homework/raw/main/binary/application.jar
+    * 실행 : java -jar application.jar
+  * api docs : http://localhost/swagger-ui.html
+  * H2 DB console : http://localhost/h2-console
+    * JDBC URL : jdbc:h2:mem:search-blog
+    * User Name : sa
+    * Password : 없음

@@ -2,9 +2,6 @@ package com.gmail.shinch.search_blog.domain.blog.api_client.naver
 
 import com.gmail.shinch.search_blog.domain.blog.api_client.ClientType
 import com.gmail.shinch.search_blog.domain.blog.api_client.ExternalApiException
-import com.gmail.shinch.search_blog.domain.blog.api_client.kakao.BlogMeta
-import com.gmail.shinch.search_blog.domain.blog.api_client.kakao.KakaoSearchReceive
-import com.gmail.shinch.search_blog.domain.blog.api_client.kakao.KakaoSearchSend
 import org.springframework.core.ParameterizedTypeReference
 import org.springframework.http.HttpEntity
 import org.springframework.http.HttpMethod

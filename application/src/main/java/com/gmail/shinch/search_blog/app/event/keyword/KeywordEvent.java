@@ -1,6 +1,5 @@
 package com.gmail.shinch.search_blog.app.event.keyword;
 
-import com.gmail.shinch.search_blog.app.event.search.SearchEngine;
 import lombok.Getter;
 import org.springframework.context.ApplicationEvent;
 
