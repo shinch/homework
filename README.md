@@ -1,5 +1,3 @@
-## Kakao Bank 사전 과제
-
 ### 개발 환경
   * gradle 7.4
   * gradle Version Catalog
